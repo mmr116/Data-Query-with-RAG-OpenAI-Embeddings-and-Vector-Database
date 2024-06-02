@@ -81,7 +81,7 @@ if __name__ == "__main__":
     columns = ["Rank", "Director", "Genre", "Plot", "Actors", "Ratings"] # Replace columns with column names of your csv file
 
     # Users should replace 'your_pinecone_index_name' with their own Pinecone index name
-    pinecone_index_name = "your_pinecone_index_name"
+    pinecone_index_name = "your_pinecone_index_name" # Replace with your pineconde database index name
 
     # Step 1: Read data from CSV
     csv_data = read_csv_data(csv_path, columns)
