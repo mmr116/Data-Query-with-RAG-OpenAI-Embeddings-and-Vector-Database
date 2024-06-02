@@ -32,7 +32,7 @@ Before you begin, ensure you have the following:
 - Pinecone API key
 - A CSV file containing your data
 
-Set your OpenAI and Pinecone API keys as environment variables:
+**API integration**: For integrating with OpenAI and Pinecone, you need to obtain and configure the respective API keys, host (pinecone) information for these platforms. Set your OpenAI and Pinecone API keys, and Pinecone host as environment variables in Linux. Use the following Linux commands to export these variables:
 
 export OPENAI_API_KEY='your-openai-api-key'
 
@@ -44,7 +44,7 @@ export PINECONE_HOST='your-pinecone-host'
 
 - Pinecone environment (Pinecone free account used https://www.pinecone.io/): 1) Pinecone Index is used 2) Dimensions: 1536 3) Host type: Serverless. In the code replace:
 
-- CentOS Linux release 8.5.2111
+- CentOS Linux release 8.5.2111. Create a virtual environment (optional but recommended) to isolate project dependencies.
 
 - python 3.8.8
 
@@ -57,6 +57,8 @@ export PINECONE_HOST='your-pinecone-host'
 - numpy 1.24.4
 
 - argparse 1.1
+
+
 
 # Usage
 **Ingesting Data and Creating Embeddings**
