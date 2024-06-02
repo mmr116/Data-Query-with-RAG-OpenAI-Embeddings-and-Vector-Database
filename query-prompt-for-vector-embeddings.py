@@ -50,7 +50,6 @@ def generate_response_from_chunks(chunks, user_query, context):
     f"Here is the movie information:\n\n{combined_text}\n\nResponse:"
     )
 
-
     response = client.chat.completions.create(
         model="gpt-4o",
         messages=[
