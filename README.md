@@ -57,3 +57,28 @@ export PINECONE_HOST='your-pinecone-host'
 #python create-chunks-embeddings-store-vectordb-csv-dataset.py
 
 **Querying the Data**
+
+1. Use the query-prompt-for-vector-embeddings.py script to query the data:
+
+#python query-prompt-for-vector-embeddings.py "Your query here"
+
+Example: python query-prompt-for-vector-embeddings.py "Tell me about the plot of the movie XYZ"
+
+2. Users can continue to enter queries interactively. To exit, type exit.
+
+Enter your next query (or type 'exit' to quit):
+
+# How It Works
+
+**Chunking the CSV Data, Create Vector Embeddings, and Storing Embeddings in the Pinecone Database**
+
+The script "create-chunks-embeddings-store-vectordb-csv-dataset.py" reads the CSV file and combines relevant columns into a single text string for each row. This text string includes details of columns for each row - each row contains distinct information (for example, information for a movie). The combined text for each row is then used to generate embeddings using OpenAI's API. The vector embeddings are stored in a pinecone index.
+
+**Leveraging OpenAI's GPT-4 LLM**
+
+The project leverages OpenAI's GPT-4 large language model (LLM) in two primary ways:
+
+- Generating Embeddings: The text data from each row of the CSV file is used as input to OpenAI's embedding model (text-embedding-ada-002). This model transforms the text into a high-dimensional vector embedding that captures the semantic meaning of the text. These embeddings are then stored in Pinecone's vector database for efficient retrieval.
+
+- Natural Language Querying: When a user submits a query, the script generates an embedding for the query text using the same embedding model. This query embedding is then used to search the Pinecone vector database for the most semantically similar text chunks (i.e., rows from the CSV file). The relevant text chunks are retrieved and passed to OpenAI's GPT-4 model to generate a comprehensive and contextually accurate response to the user's query.
+
