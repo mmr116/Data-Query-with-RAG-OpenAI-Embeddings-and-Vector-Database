@@ -7,7 +7,7 @@ Table of Contents
 
 - Prerequisites
 
-- Installation
+- Required Packages
 
 - Usage
 
@@ -40,7 +40,7 @@ export PINECONE_API_KEY='your-pinecone-api-key'
 
 export PINECONE_HOST='your-pinecone-host'
 
-# Installation
+# Required Packages
 
 python 3.8.8
 
