@@ -7,7 +7,7 @@ Table of Contents
 
 - Prerequisites
 
-- Required Platform and Packages
+- Tested Platform and Packages
 
 - Usage
 
@@ -40,7 +40,7 @@ export PINECONE_API_KEY='your-pinecone-api-key'
 
 export PINECONE_HOST='your-pinecone-host'
 
-# Required Platforms and Packages
+# Tested Platforms and Packages
 
 CentOS Linux release 8.5.2111
 
