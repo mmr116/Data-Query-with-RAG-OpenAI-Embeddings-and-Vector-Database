@@ -108,9 +108,9 @@ To ensure responses are accurate and relevant, the script maintains a context of
 
 To ensure the script works correctly with your CSV file, update the columns "create-chunks-embeddings-store-vectordb-csv-dataset.py" to match the columns in your CSV file. Here is an example of how you can customize the function:
 
-    #Users should replace columns with the list of column names they want to use - example below
+#Users should replace columns with the list of column names they want to use - example below
     
-    columns = ["Rank", "Director", "Genre", "Plot", "Actors", "Ratings"] # Replace columns with column names of your csv file
+columns = ["Rank", "Director", "Genre", "Plot", "Actors", "Ratings"] # Replace columns with column names of your csv file
 
 
 # License
