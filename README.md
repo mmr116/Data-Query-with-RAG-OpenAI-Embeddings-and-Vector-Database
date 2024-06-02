@@ -16,12 +16,6 @@ Table of Contents
 - Querying the Data
 
 - How It Works
-
-- Chunking the CSV Data
-
-- Leveraging OpenAI's GPT-4 LLM
-
-- Customizing for Your CSV File
   
 - License
 
