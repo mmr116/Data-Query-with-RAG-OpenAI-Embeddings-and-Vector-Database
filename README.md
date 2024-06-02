@@ -68,7 +68,7 @@ pinecone_index_name = "your_pinecone_index_name" [create-chunks-embeddings-store
 
 index_name = "your_pinecone_index_name" [query-prompt-for-vector-embeddings.py]
 
-2. Modify the column titles in the read_csv_data function to match the columns in your CSV file. See the Customizing for Your CSV File section for details.
+2. Modify the column titles in the read_csv_data function to match the columns in your CSV file. See the **Customizing for Your CSV File** section for details.
 
 3. Run the script to read the data, generate embeddings, and store them in Pinecon
 
