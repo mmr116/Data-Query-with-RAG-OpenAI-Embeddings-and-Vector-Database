@@ -113,3 +113,5 @@ To ensure the script works correctly with your CSV file, update the columns "cre
     columns = ["Rank", "Director", "Genre", "Plot", "Actors", "Ratings"] # Replace columns with column names of your csv file
 
 
+# License
+This project is licensed under the Apache 2.0 License. See the LICENSE file for details.
