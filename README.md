@@ -82,3 +82,16 @@ The project leverages OpenAI's GPT-4 large language model (LLM) in two primary w
 
 - Natural Language Querying: When a user submits a query, the script generates an embedding for the query text using the same embedding model. This query embedding is then used to search the Pinecone vector database for the most semantically similar text chunks (i.e., rows from the CSV file). The relevant text chunks are retrieved and passed to OpenAI's GPT-4 model to generate a comprehensive and contextually accurate response to the user's query.
 
+**Combining Context for Enhanced Responses**
+
+To ensure responses are accurate and relevant, the script maintains a context of previous queries and responses. This context is combined with the retrieved text chunks to provide GPT-4 with a comprehensive view of the information. This approach enhances the model's ability to generate detailed and accurate answers that are grounded in the data provided in the CSV file.
+
+**Customizing for Your CSV File**
+
+To ensure the script works correctly with your CSV file, update the columns "create-chunks-embeddings-store-vectordb-csv-dataset.py" to match the columns in your CSV file. Here is an example of how you can customize the function:
+
+    #Users should replace columns with the list of column names they want to use - example below
+    
+    columns = ["Rank", "Director", "Genre", "Plot", "Actors", "Ratings"] # Replace columns with column names of your csv file
+
+
