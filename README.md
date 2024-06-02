@@ -41,6 +41,8 @@ Before you begin, ensure you have the following:
 Set your OpenAI and Pinecone API keys as environment variables:
 
 export OPENAI_API_KEY='your-openai-api-key'
+
 export PINECONE_API_KEY='your-pinecone-api-key'
+
 export PINECONE_HOST='your-pinecone-host'
 
