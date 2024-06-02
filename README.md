@@ -40,6 +40,20 @@ export PINECONE_API_KEY='your-pinecone-api-key'
 
 export PINECONE_HOST='your-pinecone-host'
 
+# Installation
+
+python 3.8.8
+
+pandas 2.0.3
+
+openai 1.30.3
+
+pinecone 4.0.0
+
+numpy 1.24.4
+
+argparse 1.1
+
 # Usage
 **Ingesting Data and Creating Embeddings**
 1. Place your CSV file in the project directory. Update the csv_path variable in best-chunks-insert-embeddings.py to the path of your CSV file.
