@@ -20,7 +20,7 @@ if not openai_api_key:
 # Initialize Pinecone instance
 pc = Pinecone(api_key=pinecone_api_key)
 
-# Define index name
+# Users should replace 'your_pinecone_index_name' with their own Pinecone index name
 index_name = "your_pinecone_index_name" # Replace with your pinecone database index name
 
 # Connect to the Pinecone index
