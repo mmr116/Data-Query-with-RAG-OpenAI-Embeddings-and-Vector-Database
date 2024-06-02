@@ -42,6 +42,8 @@ export PINECONE_HOST='your-pinecone-host'
 
 # Tested Platforms and Packages
 
+Pinecone environment (Pinecone free account used https://www.pinecone.io/): 1) Pinecone Index is used 2) Dimensions: 1536 3) Host type: Serverless. In the code replace:
+
 CentOS Linux release 8.5.2111
 
 python 3.8.8
