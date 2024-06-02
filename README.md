@@ -47,7 +47,7 @@ export PINECONE_API_KEY='your-pinecone-api-key'
 export PINECONE_HOST='your-pinecone-host'
 
 # Usage
--Ingesting Data and Creating Embeddings
+**Ingesting Data and Creating Embeddings**
 1. Place your CSV file in the project directory. Update the csv_path variable in best-chunks-insert-embeddings.py to the path of your CSV file.
 
 2. Modify the column titles in the read_csv_data function to match the columns in your CSV file. See the Customizing for Your CSV File section for details.
@@ -56,4 +56,4 @@ export PINECONE_HOST='your-pinecone-host'
 
 #python create-chunks-embeddings-store-vectordb-csv-dataset.py
 
--Querying the Data
+**Querying the Data**
