@@ -88,7 +88,7 @@ Example: python query-prompt-for-vector-embeddings.py "Tell me about the plot of
 
 2. Users can continue to enter queries interactively. To exit, type exit.
 
-Enter your next query (or type 'exit' to quit):
+Enter your next query (or type 'exit' to quit): Which year this movie got released?
 
 # How It Works
 
