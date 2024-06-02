@@ -42,21 +42,21 @@ export PINECONE_HOST='your-pinecone-host'
 
 # Tested Platforms and Packages
 
-Pinecone environment (Pinecone free account used https://www.pinecone.io/): 1) Pinecone Index is used 2) Dimensions: 1536 3) Host type: Serverless. In the code replace:
+- Pinecone environment (Pinecone free account used https://www.pinecone.io/): 1) Pinecone Index is used 2) Dimensions: 1536 3) Host type: Serverless. In the code replace:
 
-CentOS Linux release 8.5.2111
+- CentOS Linux release 8.5.2111
 
-python 3.8.8
+- python 3.8.8
 
-pandas 2.0.3
+- pandas 2.0.3
 
-openai 1.30.3
+- openai 1.30.3
 
-pinecone 4.0.0
+- pinecone 4.0.0
 
-numpy 1.24.4
+- numpy 1.24.4
 
-argparse 1.1
+- argparse 1.1
 
 # Usage
 **Ingesting Data and Creating Embeddings**
