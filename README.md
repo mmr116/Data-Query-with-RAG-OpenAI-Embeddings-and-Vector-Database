@@ -7,7 +7,7 @@ Table of Contents
 
 - Prerequisites
 
-- Required Packages
+- Required Platform and Packages
 
 - Usage
 
@@ -40,7 +40,9 @@ export PINECONE_API_KEY='your-pinecone-api-key'
 
 export PINECONE_HOST='your-pinecone-host'
 
-# Required Packages
+# Required Platforms and Packages
+
+CentOS Linux release 8.5.2111
 
 python 3.8.8
 
