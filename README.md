@@ -1,6 +1,6 @@
 # Data-Query-with-RAG-OpenAI-Embeddings-and-Vector-Database
 
-This repository contains a project that demonstrates how to use Retrieval-Augmented Generation (RAG) framework with OpenAI's GPT-4 model and Pinecone vector database to query a CSV dataset. The project involves creating vector embeddings from the data in the CSV file, storing embeddings in the Pinecone database, and then querying the vector embeddings data using natural language queries.
+This repository contains a project that demonstrates how to use Retrieval-Augmented Generation (RAG) framework with OpenAI's GPT-4o model and Pinecone vector database to query a CSV dataset. The project involves creating vector embeddings from the data in the CSV file, storing embeddings in the Pinecone database, and then querying the vector embeddings data using natural language queries.
 
 Table of Contents
 - Introduction
@@ -74,7 +74,11 @@ index_name = "your_pinecone_index_name" [query-prompt-for-vector-embeddings.py]
 
 2. Modify the column titles in the read_csv_data function to match the columns in your CSV file. See the **Customizing for Your CSV File** section for details.
 
-3. Run the script to read the data, generate embeddings, and store them in Pinecon
+3. You can use OpenAI LLM models based on your needs:
+
+     model="gpt-4o", # You can use gpt-4 or gpt-3.5-turbo or other OpenAI LLM model. [query-prompt-for-vector-embeddings.py]
+
+5. Run the script to read the data, generate embeddings, and store them in Pinecon
 
 #python create-chunks-embeddings-store-vectordb-csv-dataset.py
 
