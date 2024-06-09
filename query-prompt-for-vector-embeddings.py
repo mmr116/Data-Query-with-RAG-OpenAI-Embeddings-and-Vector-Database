@@ -51,7 +51,7 @@ def generate_response_from_chunks(chunks, user_query, context):
     )
 
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-4o", # You can use gpt-4 or gpt-3.5-turbo or other OpenAI LLM model.
         messages=[
             {"role": "system", "content": "You are an AI assistant providing detailed responses based on given texts."},
             {"role": "user", "content": prompt}
