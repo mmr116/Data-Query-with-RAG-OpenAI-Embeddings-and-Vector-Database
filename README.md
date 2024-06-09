@@ -64,8 +64,8 @@ export PINECONE_HOST='your-pinecone-host'
 
 # Usage
 **Ingesting Data and Creating Embeddings**
-1. Place your CSV file in the project directory. Update the csv_path variable in "create-chunks-embeddings-store-vectordb-csv-dataset.py" to the path of your CSV file and Pinecone index name in "create-chunks-embeddings-store-vectordb-csv-dataset.py" and "query-prompt-for-vector-embeddings.py"
-
+1. Place your CSV file in the project directory. Update the csv_path variables and Pinecone index name in below files:
+   
 csv_path = "your_csv_file_path" [create-chunks-embeddings-store-vectordb-csv-dataset.py]
 
 pinecone_index_name = "your_pinecone_index_name" [create-chunks-embeddings-store-vectordb-csv-dataset.py]
