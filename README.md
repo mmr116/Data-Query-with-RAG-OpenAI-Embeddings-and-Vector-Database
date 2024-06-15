@@ -44,7 +44,7 @@ export PINECONE_HOST='your-pinecone-host'
 
 - OpenAI API: OpenAI model "text-embedding-ada-002" and "gpt-4o" used for generating embeddings, and LLM support. Ensure you have an OpenAI account with valid API keys. You can obtain your API keys from the OpenAI platform (https://platform.openai.com/) and manage them (https://platform.openai.com/organization/api-keys). Additionally, ensure that your account has sufficient usage quota, as this example requires a paid OpenAI account.
   
-- Pinecone environment (Pinecone free account used https://www.pinecone.io/): 1) Pinecone Index is used 2) Dimensions: 1536 3) Host type: Serverless. In the code replace:
+- Pinecone environment (Pinecone free account used https://www.pinecone.io/): 1) Pinecone Index is used 2) Dimensions: 1536 3) Host type: Serverless.
 
 - CentOS Linux release 8.5.2111. Create a virtual environment (optional but recommended) to isolate project dependencies.
 
